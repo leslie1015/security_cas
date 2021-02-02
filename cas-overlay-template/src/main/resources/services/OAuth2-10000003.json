@@ -1,0 +1,13 @@
+{
+  "@class" : "org.apereo.cas.support.oauth.services.OAuthRegisteredService",
+  "clientId": "100003",
+  "clientSecret": "123456",
+  "bypassApprovalPrompt": false,
+  "generateRefreshToken": false,
+  "serviceId" : "^(https|http|imaps)://.*",
+  "name" : "OAuthService",
+  "id" : 10000003,
+  "attributeReleasePolicy" : {
+    "@class" : "org.apereo.cas.services.ReturnAllAttributeReleasePolicy"
+  }
+}
